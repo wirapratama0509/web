@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header><b>DAFTAR AKUN</b></header>
+        <form class="form" action="#">
+            <div class="input-box">
+                <label>Username</label>
+                <input type="text" placeholder="Masukkan Username Yang Akan Digunakan" required>
+            </div>
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Masukkan Password Yang Akan Digunakan" required>
+            </div>
+            <div class="input-box address">
+                <label>Alamat</label>
+                <textarea name="alamat" id="alamat" rows="2" cols="16">
+                    Masukkan Alamat Lengkap
+                </textarea>
+            </div>
+            <div class="gender">
+                <h3>Jenis Kelamin</h3>
+                <div class="gender-option">
+                    <div class="gdr">
+                        <label for="laki-laki">Laki-Laki</label>
+                        <input type="radio" id="laki-laki" name="gender">
+                    </div>
+                    <div class="gdr">
+                        <label for="perempuan">Perempuan</label>
+                        <input type="radio" id="perempuan" name="gender">
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <h3>Pekerjaan</h3>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>--Pilih Salah Satu--</option>
+                            <option>Mahasiswa</option>
+                            <option>Wiraswasta</option>
+                            <option>Wirausaha</option>
+                            <option>PNS</option>
+                            <option>Lainnya</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="interest">
+                <h3>Olahraga Yang Diminati</h3>
+                <div class="checkbox">
+                    <input type="checkbox" name="sport" id="sb"><label for="sb">Sepak Bola</label>
+                    <input type="checkbox" name="sport" bt="tr"><label for="bt">Badminton</label>
+                    <input type="checkbox" name="sport" id="bk"><label for="bk">Basket</label>
+                    <input type="checkbox" name="sport" id="tn"><label for="tn">Tenis</label>
+                </div>
+            </div>
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
