@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "poppins",sans-serif;
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-box input[type="text"],
+.input-box input[type="password"],
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-box textarea {
+    resize: vertical;
+}
+
+.gender,
+.work,
+.interest {
+    margin-bottom: 20px;
+}
+
+.gender h3,
+.work h3,
+.interest h3 {
+    margin-bottom: 10px;
+}
+
+.gender-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.gdr {
+    margin-bottom: 10px;
+}
+
+.gdr label {
+    margin-left: 5px;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #2c3e50;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    margin-top: 20px;
+    background-color: #333;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button[type="reset"]:hover {
+    opacity: 0.9;
+}
